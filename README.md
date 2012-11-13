@@ -1,4 +1,4 @@
 mail_except
 ===========
 
-This will log your python exceptions to specified mail ids on email.
+This module will help you configuring logger to log exceptions to specified mail address.

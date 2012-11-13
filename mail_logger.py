@@ -1,3 +1,16 @@
+"""
+
+Author :- Aashish Pathak
+Description :-
+This module is intended to configure logger to be able 
+to log exceptions to mail addresses.
+
+Usage :-
+import mail_logger
+mail_logger.init(<Provide all required params>)
+It will give you logger instance, use it to log your excpetion messages.
+
+"""
 import logging
 from logging.handlers import SMTPHandler
 
